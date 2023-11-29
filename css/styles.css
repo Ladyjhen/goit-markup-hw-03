@@ -21,21 +21,20 @@ body{
   /* HEADER SECTION */
   .header {
     background-color: var(--white);
-    color: #e7e9fc
+    border-bottom: 1px;
+    color: var(--cornerflower);
   }
   
   .container {
     display: flex;
-    border-bottom: 1px;
     width: 1158px;
-    color: var(--cornerflower);
     padding-left: 15px;
     padding-right: 15px;
+    margin:auto
   }
 
   .container-two {
     display: flex;
-    margin:auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 24px ;
