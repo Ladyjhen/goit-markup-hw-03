@@ -26,11 +26,15 @@ body{
   
   .container {
     display: flex;
+    border-bottom: 1px;
+    width: 1158px;
+    color: var(--cornerflower);
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .container-two {
     display: flex;
-    width: 1158px;
     margin:auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -58,6 +62,7 @@ body{
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
+    margin-right: 76px;
   }
   
   .link {
@@ -67,7 +72,9 @@ body{
   .list {
     list-style: none;
   }
-  
+  .nav {
+    display: flex;
+  }
   .nav-list-item {
     list-style: none;
     display: flex;
