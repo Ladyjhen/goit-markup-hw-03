@@ -21,24 +21,17 @@ body{
   /* HEADER SECTION */
   .header {
     background-color: var(--white);
-    border-bottom: 1px;
     color: #e7e9fc
   }
   
   .container {
     display: flex;
-    width: 1158px;
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    align-items: center;
-    margin-right: 40px;
   }
 
   .container-two {
     display: flex;
     width: 1158px;
-    margin: auto;
+    margin:auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 24px ;
@@ -77,6 +70,8 @@ body{
   
   .nav-list-item {
     list-style: none;
+    display: flex;
+    align-items: center;
    
   }
   
@@ -90,6 +85,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-right: 40px;
+    display: flex;
+    align-items: center;
   }
   
   .nav-list-item-link:hover,
@@ -118,6 +115,8 @@ body{
   /* Section 1 */
   .hero-section {
     background-color: var(--navyblue);
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
   .hero-tittle {
     font-family: Roboto;
@@ -138,6 +137,12 @@ body{
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--iris);
+    border-radius: 4px;
   }
   .hero-button:hover,
   .hero-button:focus {
@@ -145,6 +150,14 @@ body{
     cursor: pointer;
   }
   
+  .section-one {}
+  .section-one-hero {
+    max-width: 496px;
+  }
+  .section-one-btn {
+    
+
+  }
   /* Section 2 */
   .features-section {
     background-color: var(--white);
