@@ -51,7 +51,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-
+    margin-right: 76px;
   }
   
   .nav-logo-span {
@@ -165,27 +165,17 @@ body{
   
   }
   .section-one-btn {
-    
+    }
 
-  }
+
   /* Section 2 */
   .features-section {
     background-color: var(--white);
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
   }
 
   .section-two {
     padding-top: 120px;
     padding-bottom: 120px;
-
   }
   
   .section-title {
@@ -195,7 +185,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--navybluemodal);
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
   }
   
   .item-title {
@@ -207,6 +197,7 @@ body{
     letter-spacing: 0.4px;
     color: var(--navyblue);
     display: flex;
+    margin-bottom: 8px;
   }
   .item-text {
     font-family: Roboto;
@@ -222,8 +213,14 @@ body{
   /* Section 3 */
   .services-section {
     background-color: var(--white);
+    padding-bottom: 120px;
   }
-  
+
+  .header-three {
+    margin-bottom: 72px;
+    display: flex;
+}
+
   /* Section 4 */
   .team-section {
     background-color: var(--cloud);
