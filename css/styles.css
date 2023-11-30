@@ -173,7 +173,7 @@ body{
     background-color: var(--white);
   }
 
-  .section-two {
+  /*.section-two {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -184,7 +184,7 @@ body{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+  }*/
   
   .section-title {
     font-size: 36px;
@@ -196,6 +196,16 @@ body{
     padding-top: 120px;
     padding-bottom: 120px;
     margin-bottom: 8px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
   
   .item-title {
