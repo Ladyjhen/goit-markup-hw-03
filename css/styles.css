@@ -227,8 +227,11 @@ body{
   }
 
   .header-three {
-   
-}
+   }
+
+   .img {
+    display: block;
+   }
 
   /* Section 4 */
   .team-section {
