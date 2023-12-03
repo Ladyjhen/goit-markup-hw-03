@@ -173,7 +173,6 @@ body{
   /* Section 2 */
   .features-section {
     background-color: var(--white);
-    padding: 120px 0 120px;
   }
 
   .section-two {
@@ -196,8 +195,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--navybluemodal);
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px;
     margin-bottom: 72px;
   }
   
