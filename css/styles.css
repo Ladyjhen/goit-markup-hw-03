@@ -214,6 +214,7 @@ body{
     color: var(--navyblue);
     display: flex;
     margin-bottom: 8px;
+    text-align: center;
   }
   .item-text {
     font-family: Roboto;
@@ -224,6 +225,7 @@ body{
     letter-spacing: 0.32px;
     color: var(--slate);
     display: flex;
+    text-align: center;
   }
   
   /* Section 3 */
