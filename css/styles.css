@@ -318,5 +318,9 @@ body{
     cursor: pointer;
   }
 
+  section {
+    padding: 96px 0 120px 0;
+  }
+
   
   
