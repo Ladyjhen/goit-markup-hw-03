@@ -70,6 +70,10 @@ body{
   
   .list {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 72px;
   }
   .nav {
     display: flex;
