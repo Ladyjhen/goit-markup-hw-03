@@ -276,7 +276,7 @@ body{
   }
 
   .footer  .container {
-    
+    display: inline-block;
   }
   
   
