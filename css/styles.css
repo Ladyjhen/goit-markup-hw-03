@@ -320,6 +320,7 @@ body{
     background-color: var(--ocean);
     color: var(--white);
     cursor: pointer;
+    border: 1px solid transparent;
   }
 
   section {
