@@ -291,6 +291,7 @@ body{
   /* Portfolio */
   .menu-list {
     list-style: none;
+    padding: 96px 0 120px 0;
   }
   
   .button {
@@ -302,6 +303,9 @@ body{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border: 1px solid #e7e9fc;
+    border: 4px;
+
   }
   
   .button:hover,
@@ -309,6 +313,14 @@ body{
     background-color: var(--ocean);
     color: var(--white);
     cursor: pointer;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0, auto ;
+   
+    
   }
   
   
