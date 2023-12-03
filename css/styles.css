@@ -303,6 +303,13 @@ body{
   .menu-list {
     list-style: none;
   }
+
+  .list-item {
+    margin-right: 24px;
+  }
+
+  .list-item:last-child {
+    margin-right: 0;}
   
   .button {
     color: var(--iris);
