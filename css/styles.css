@@ -21,7 +21,7 @@ body{
   /* HEADER SECTION */
   .header {
     background-color: var(--white);
-    border-bottom: 1px;
+    border-bottom: #e7e9fc, 1px;
     color: var(--cornerflower);
   }
   
@@ -73,6 +73,7 @@ body{
   }
   .nav {
     display: flex;
+    align-items: center;
   }
   .nav-list-item {
     list-style: none;
@@ -121,6 +122,9 @@ body{
   /* Section 1 */
   .hero-section {
     background-color: var(--navyblue);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0, auto;
     }
   .hero-tittle {
     font-family: Roboto;
@@ -132,8 +136,6 @@ body{
     color: var(--white);
     text-align: center;
     max-width: 496px;
-    padding-top: 188px;
-    padding-bottom: 188px;
     }
 
   .hero-button {
@@ -162,7 +164,7 @@ body{
   
   .section-one {}
   .section-one-hero {
-  
+ margin: 0 auto;
   }
   .section-one-btn {
     }
