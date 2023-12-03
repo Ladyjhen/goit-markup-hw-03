@@ -122,6 +122,7 @@ body{
   /* Section 1 */
   .hero-section {
     background-color: var(--navyblue);
+    padding: 188px 0 188px;
     }
   .hero-tittle {
     font-family: Roboto;
