@@ -222,17 +222,6 @@ ul {
   margin-right: 0;
 }
 
-
-.titles {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-  color: var(--navyblue);
-  margin-bottom: 8px;
-  display: flex;
-  text-align: center;
-}
-
 .features-title {
   font-family: Roboto;
   font-size: 20px;
