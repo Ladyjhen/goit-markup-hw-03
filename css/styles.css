@@ -399,6 +399,17 @@ ul {
 
 /* CSS Positioning of Portfolio */
 
+.port-section {
+  padding: 96px 0 120px 0;
+}
+
+.port-button {
+  border: 1px solid var(--cornflowercolor);
+}
+.port-button:hover 
+.port-button:focus {
+  border: 1px solid transparent;
+}
 .filter {
   margin-bottom: 72px;
   display: flex;
