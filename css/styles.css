@@ -117,6 +117,7 @@ body{
     font-style: normal;
   }
    .address-list-item {
+    display: flex;
     padding: 24px 0 24px;
     margin-right:  40px;
    }
