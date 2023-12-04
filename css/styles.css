@@ -217,6 +217,7 @@ ul {
 .features-list-item {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
+  padding: 0;
 }
 
 .features-title {
