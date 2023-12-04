@@ -100,8 +100,8 @@ body{
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
-    padding: 24px 0 24px
-    margin-right: 40px;
+    padding: 24px 0 24px;
+    margin-right:  40px;
     }
   
   .nav-list-item-link:last-child {
