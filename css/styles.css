@@ -282,7 +282,6 @@ body{
 
  .team-list-item:last-child {
   margin-right: 0;
-  width: calc((100% - 72px) / 4);
  }
 
  .item-title {
