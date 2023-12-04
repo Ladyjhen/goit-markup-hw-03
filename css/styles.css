@@ -234,9 +234,6 @@ body{
     padding-bottom: 120px;
   }
 
-  .header-three {
-   }
-
    img {
     display: block;
    }
@@ -246,7 +243,7 @@ body{
     margin-right: 24px;
    }
 
-   .service-list-items-last-child {
+   .service-list-items:last-child {
     margin-right: 120px 0;
    }
 
@@ -258,7 +255,15 @@ body{
   .team-list-item {
     list-style: none;
     background-color: var(--white);
+    border-radius: 0 0 4px 4px;
+    margin-right: 24px;
+    width: calc((100% - 72px) / 4);
   }
+
+ .team-list-item:last-child {
+  margin-right: 0;
+ }
+
   
   /* footer Section */
   .footer {
