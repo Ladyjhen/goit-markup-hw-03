@@ -185,6 +185,10 @@ body{
     padding: 120px 0 120px;
   }
 
+  .features-list-item {
+    width:  calc( (100% - 72px) /4);
+  }
+
   .section-two {
     position: absolute;
     width: 1px;
