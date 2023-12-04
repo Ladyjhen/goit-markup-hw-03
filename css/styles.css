@@ -346,6 +346,57 @@ ul {
   padding: 32px 0;
 }
 
+/* footer Section */
+.footer {
+  background-color: var(--navyblue);
+  padding: 100px 0;
+}
+
+.footer-logo-span-web {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.footer  .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer  .container {
+  display: inline-block;
+}
+
+
+.footer-logo-span {
+  color: var(--cloud);
+}
+.footer-p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  color: var(--cloud);
+  max-width: 264px;
+}
+
 /* CSS Positioning of Portfolio */
 
 .filter {
