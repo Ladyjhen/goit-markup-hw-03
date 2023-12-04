@@ -444,6 +444,7 @@ ul {
 .svc-info {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
+  border-top: none;
   
 }
 .info .list-header,
