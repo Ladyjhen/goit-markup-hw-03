@@ -449,6 +449,7 @@ ul {
 
 .service {
   border: 1px solid var(--cornflowercolor);
+  border-top: none;
 }
 .info .list-header,
 .svc .list-header {
