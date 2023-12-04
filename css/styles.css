@@ -139,7 +139,22 @@ ul {
 .section-no-top-padding {
   padding-top: 0;
 }
+/*header*/
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
 
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+.header-address {
+  display: flex;
+  gap: 40px;
+}
+/*section1*/
 .hero-title {
   color: var(--whitecolor);
   font-size: 56px;
@@ -181,21 +196,7 @@ ul {
   background-color: var(--oceancolor);
 }
 
-.header-navigation {
-  display: flex;
-  align-items: center;
-}
-
-.header-list {
-  display: flex;
-  gap: 40px;
-  margin-left: 76px;
-}
-
-.header-address {
-  display: flex;
-  gap: 40px;
-}
+/*section2*/
  .hidden {
   position: absolute;
   width: 1px;
