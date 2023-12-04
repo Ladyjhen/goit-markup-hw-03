@@ -402,12 +402,31 @@ ul {
 .port-section {
   padding: 96px 0 120px 0;
 }
-
-.port-button {
-  border: 1px solid var(--cornflowercolor);
+.btn-menu {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
 }
-.port-button:hover 
-.port-button:focus {
+
+.btn.list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.btn-menu:hover,
+.btn-menu:focus {
+  color: var(--white);
+  background-color: var(--ocean);
   border: 1px solid transparent;
 }
 .filter {
