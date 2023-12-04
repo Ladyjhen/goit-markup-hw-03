@@ -28,16 +28,11 @@ body{
   .container {
     display: flex;
     width: 1158px;
-   padding: 120px 0 120px;
     margin: 0 auto;
   }
 
   .container-two {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 24px ;
-    padding-bottom: 24px ;
     align-items: center;
   }
     
