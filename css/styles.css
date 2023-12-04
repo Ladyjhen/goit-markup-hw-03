@@ -98,13 +98,16 @@ body{
     color: var(--navyblue);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 40px;
     display: flex;
     align-items: center;
-    margin: 0, auto;
-    padding: 24px 0 24px;
-  }
+    margin-right: 40px;
+    }
   
+  .nav-list-item-link:last-child {
+    margin-right: 0;
+  }
+
+
   .nav-list-item-link:hover,
   .nav-list-item-link:focus {
     color: var(--ocean);
