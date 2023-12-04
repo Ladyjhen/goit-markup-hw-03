@@ -193,7 +193,7 @@ body{
   /* Section 2 */
   .features-section {
     background-color: var(--white);
-    padding: 120px 0 120px;
+    padding: 120px 0;
   }
 
   .features-list-item {
