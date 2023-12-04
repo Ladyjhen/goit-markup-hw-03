@@ -52,6 +52,7 @@ ul {
 
 .web-logo {
   color: var(--iriscolor);
+  margin-right: 76px;
 }
 
 .studio-logo {
@@ -90,7 +91,13 @@ ul {
 .header-address-link {
   color: var(--slatecolor);
   padding: 24px 0;
-  display: block;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.header-address-link:last-child {
+  margin-right: 0;
 }
 
 .header-address-link:hover,
@@ -131,6 +138,7 @@ ul {
   line-height: 60px;
   letter-spacing: 1.12px;
   margin-bottom: 40px;
+  max-width: 496px;
 }
 
 .hero-section {
@@ -154,6 +162,9 @@ ul {
   font-family: inherit;
   font-size: 16px;
   padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -176,6 +187,23 @@ ul {
   display: flex;
   gap: 40px;
 }
+ .hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+ }
+
+.features-item {
+  width:  calc( (100% -72px) /4);
+}
+
 
 .titles {
   font-size: 20px;
@@ -183,10 +211,33 @@ ul {
   letter-spacing: 0.4px;
   color: var(--navyblue);
   margin-bottom: 8px;
+  display: flex;
+  text-align: center;
 }
 
+.features-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+  color: var(--navyblue);
+  display: flex;
+  margin-bottom: 8px;
+  text-align: center;
+}
 .bottom-text {
   color: var(--slatecolor);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  color: var(--slate);
+  display: flex;
+  text-align: center;
 }
 
 .section-grey {
