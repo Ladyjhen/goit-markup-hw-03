@@ -276,7 +276,7 @@ body{
     background-color: var(--white);
     border-radius: 0 0 4px 4px;
     margin-right: 24px;
-    width: calc((100%-72px)/ 4);
+    flex-basis: calc((100% - 72px) / 4);
   }
 
  .team-list-item:last-child {
