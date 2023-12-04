@@ -93,6 +93,10 @@ ul {
   justify-content: space-between;
 }
 
+.address {
+  font-style: normal;
+}
+
 .header-address-link {
   color: var(--slatecolor);
   padding: 24px 0;
