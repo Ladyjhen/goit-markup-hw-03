@@ -293,7 +293,6 @@ body{
   text-align: center;
  }
 
-}
   /* footer Section */
   .footer {
     background-color: var(--navyblue);
@@ -375,6 +374,13 @@ body{
   section {
     padding: 96px 0 120px 0;
   }
+ .port-list {
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+ }
 
+ .port-list:last-child {
+  margin-bottom: 0;
+ }
   
   
