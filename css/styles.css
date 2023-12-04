@@ -29,7 +29,7 @@ body{
     display: flex;
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding:0 15px;
   }
 
   .container-two {
@@ -276,8 +276,8 @@ body{
     list-style: none;
     background-color: var(--white);
     border-radius: 0 0 4px 4px;
-    margin-right: 24px;
     width: calc((100% - 72px) / 4);
+    margin-right: 24px;
   }
 
  .team-list-item:last-child {
