@@ -98,6 +98,7 @@ body{
     color: var(--navyblue);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    list-style: none;
     display: flex;
     align-items: center;
     padding: 24px 0 24px;
@@ -117,9 +118,11 @@ body{
     font-style: normal;
   }
    .address-list-item {
+    list-style: none;
     display: flex;
+    align-items: center;
+    margin-right: 40px;
     padding: 24px 0 24px;
-    margin-right:  40px;
    }
 
    .address-list-item:last-child {
