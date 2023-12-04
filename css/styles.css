@@ -214,11 +214,11 @@ ul {
   padding: 120px 0;
 }
 
-.features-item {
+.features-list-item {
   width: calc ((100% - 72px) / 4);
   margin-right: 24px;
 }
-.features-item:last-child {
+.features-list-item:last-child {
   margin-right: 0;
 }
 
