@@ -116,7 +116,15 @@ body{
   .address {
     font-style: normal;
   }
-  
+   .address-list-item {
+    padding: 24px 0 24px;
+    margin-right:  40px;
+   }
+
+   .address-list-item:last-child {
+    margin-right: 0;
+   }
+
   .address-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
