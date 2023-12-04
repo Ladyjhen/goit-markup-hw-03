@@ -208,6 +208,10 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
  }
+ .features-section {
+  background-color: var(--white);
+  padding: 120px 0;
+}
 
 .features-item {
   width:  calc( (100% -72px) /4);
