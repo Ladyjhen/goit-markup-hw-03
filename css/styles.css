@@ -214,8 +214,10 @@ ul {
   padding: 120px 0;
 }
 
-.features-list-item {
+.features-list {
   width: calc((100% - 72px) / 4);
+}
+.features-list-item {
   margin-right: 24px;
 }
 
