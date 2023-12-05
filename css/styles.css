@@ -216,10 +216,10 @@ ul {
 .features-list {
   list-style: none;
   display: flex;
-  gap: 24px;
+ margin-right: 24px;
 }
 .features-list:last-child {
-  gap: 0;
+  margin-right: 0;
 }
 .features-list-item {
   flex-basis: calc((100% - 72px) / 4);
