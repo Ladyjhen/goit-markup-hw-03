@@ -221,6 +221,9 @@ ul {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
+.features-list-item:last-child {
+  margin-right: 0;
+}
 
 
 .features-title {
