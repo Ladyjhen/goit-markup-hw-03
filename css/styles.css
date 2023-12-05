@@ -245,7 +245,14 @@ ul {
  .info-card {
    flex-basis: calc((100% - 72px) / 4);
  }
+/*section 3*/
+.adds {
+  margin-right: 24px;
+}
 
+.adds:lastchild {
+  margin-right: 0;
+}
 .bottom-text {
   color: var(--slatecolor);
   font-family: Roboto;
