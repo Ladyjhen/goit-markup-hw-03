@@ -217,7 +217,6 @@ ul {
 .features-list {
 }
 .features-list-item {
-  row-gap: 24px;
   width: calc((100% - 72px) / 4);
 }
 
