@@ -333,6 +333,7 @@ ul {
 .what-we-do-list {
   display: flex;
   justify-content: space-between;
+  gap:24px
 }
 
 .team-list {
