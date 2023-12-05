@@ -358,7 +358,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--iriscolor);
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
