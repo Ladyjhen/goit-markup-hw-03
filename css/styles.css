@@ -213,15 +213,11 @@ ul {
   background-color: var(--white);
   padding: 120px 0;
 }
-
-
-.adds{
-  margin-right: 24px;
- }
- 
- .adds:last-child {
-   margin-right: 0 auto;
- }
+.features-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
 .features-list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
