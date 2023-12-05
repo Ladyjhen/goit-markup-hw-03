@@ -163,6 +163,7 @@ ul {
   letter-spacing: 1.12px;
   margin-bottom: 40px;
   max-width: 496px;
+  margin: auto;
 }
 
 .hero-section {
@@ -189,6 +190,7 @@ ul {
   display: block;
   min-width: 169px;
   height: 56px;
+  margin: auto;
 }
 
 .hero-button:hover,
