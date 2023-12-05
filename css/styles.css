@@ -222,7 +222,7 @@ ul {
   margin-right: 0;
 }
 .features-list-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-list-item:last-child {
