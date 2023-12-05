@@ -215,12 +215,9 @@ ul {
 }
 
 .features-list {
-  width: 1128px;
-  height: 120px;
-  flex-shrink: 0;
 }
 .features-list-item {
-  margin-right: 24px;
+  row-gap: 24px;
   width: calc((100% - 72px) / 4);
 }
 
