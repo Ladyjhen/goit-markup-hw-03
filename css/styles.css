@@ -78,7 +78,7 @@ ul {
 }
 
 .header-logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--iriscolor);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -225,8 +225,6 @@ ul {
   width: calc((100% - 72px) / 4);
 }
 
-
-
 .features-title {
   font-family: Roboto;
   font-size: 20px;
@@ -238,11 +236,8 @@ ul {
   display: flex;
   margin-bottom: 8px;
   text-align: center;
-  margin-right: 24px;
-}
-.features-title:last-child {
-  margin-right: 0 auto;
-}
+  }
+
 .bottom-text {
   color: var(--slatecolor);
   font-family: Roboto;
@@ -253,11 +248,8 @@ ul {
   letter-spacing: 0.32px;
   color: var(--slate);
   display: flex;
-  margin-right: 24px
 }
-.bottom-text:last-child {
-  margin-right: 0 auto;
-}
+
 .section-grey {
   background-color: var(--cloudcolor);
 }
@@ -364,7 +356,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--iris);
+  text-decoration: none;
+  color: var(--iriscolor);
 }
 
 .logo {
@@ -388,7 +381,14 @@ ul {
 
 
 .footer-logo-span {
-  color: var(--cloud);
+color: var(--CLOUD, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .footer-p {
   font-family: Roboto;
