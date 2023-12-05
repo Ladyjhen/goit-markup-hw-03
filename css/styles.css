@@ -219,7 +219,7 @@ ul {
 }
 
 .adds:last-child {
-  margin-right: 0;
+  margin-right: 0 auto;
 }
 
 .features-list-item {
