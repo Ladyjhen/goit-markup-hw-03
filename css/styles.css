@@ -251,7 +251,6 @@ ul {
   letter-spacing: 0.32px;
   color: var(--slate);
   display: flex;
-  text-align: center;
   margin-right: 24px
 }
 .bottom-text:last-child {
