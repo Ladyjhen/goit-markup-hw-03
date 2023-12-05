@@ -219,7 +219,7 @@ ul {
   gap: 24px;
 }
 .features-list:last-child {
-  gap: 0
+  gap: 0;
 }
 .features-list-item {
   flex-basis: calc((100% - 72px) / 4);
