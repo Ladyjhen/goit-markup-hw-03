@@ -216,7 +216,10 @@ ul {
 .features-list {
   list-style: none;
   display: flex;
-  gap: 24px;
+  margin-right: 24px;
+}
+.features-list:last-child { 
+margin-right: 0;
 }
 
 .features-list-item {
