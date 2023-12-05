@@ -213,11 +213,14 @@ ul {
   background-color: var(--white);
   padding: 120px 0;
 }
-
+.features-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
 
 .features-list-item {
   flex-basis: calc((100% - 72px) / 4);
-  margin-right: 24px;
 }
 
 .features-list-item:last-child {
