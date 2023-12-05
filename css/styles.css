@@ -360,6 +360,7 @@ ul {
   color: var(--iriscolor);
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 24px;
 }
 
 .logo {
