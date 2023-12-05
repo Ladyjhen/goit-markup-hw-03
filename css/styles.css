@@ -214,18 +214,13 @@ ul {
   padding: 120px 0;
 }
 
- .adds{
- margin-right: 24px;
-}
-
-.adds:last-child {
-  margin-right: 0 auto;
-}
-
 .features-list-item {
   flex-basis: calc((100% - 72px) / 4);
+  margin-right: 24px;
 }
-
+ .features-list-item:last-child {
+  margin-right: 0 auto;
+ }
 .features-title {
   font-family: Roboto;
   font-size: 20px;
