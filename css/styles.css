@@ -203,9 +203,13 @@ ul {
 }
 
 .features-list-item {
-  width:  calc( (100% -72px) /4);
+  width: calc( (100% -72px) /4);
+  margin-right: 24;
 }
 
+.features-list-item:last-child{
+  margin-right: 0;
+}
 .section-two {
   position: absolute;
   width: 1px;
