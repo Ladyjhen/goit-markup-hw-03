@@ -217,6 +217,10 @@ ul {
 .features-list {
   gap: 24px;
 }
+.features-list:last-child {
+  margin: 0;
+}
+
 .features-list-item {
   width: calc((100% - 72px) / 4);
 }
