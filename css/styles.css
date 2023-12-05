@@ -246,13 +246,29 @@ ul {
    flex-basis: calc((100% - 72px) / 4);
  }
 /*section 3*/
-.adds {
-  margin-right: 24px;
+
+.third {
+  margin-top: -120px;
+  justify-content: center;
+  margin-bottom: 72px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  display: flex;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.third-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
 }
 
-.adds:lastchild {
-  margin-right: 0;
+.listing {
+  width: calc((100%-48px) / 3);
 }
+
 .bottom-text {
   color: var(--slatecolor);
   font-family: Roboto;
