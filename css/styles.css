@@ -214,11 +214,14 @@ ul {
   padding: 120px 0;
 }
 
-.features-list {
+ .adds{
  margin-right: 24px;
 }
 .features-list:last-child {
  margin: 0;
+}
+.adds:last-child {
+  margin-right: 0;
 }
 
 .features-list-item {
