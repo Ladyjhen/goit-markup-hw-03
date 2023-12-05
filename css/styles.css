@@ -244,6 +244,7 @@ ul {
   display: flex;
   margin-bottom: 8px;
   text-align: center;
+  display: flex;
 }
 .item-text {
   font-family: Roboto;
